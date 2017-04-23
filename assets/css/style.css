@@ -1,0 +1,29 @@
+body {
+	background-image: url('./images/brickwall.png');
+	padding-top: 70px;
+}
+.empty{
+	padding-top: 70px;
+}
+.icons{
+	height: 30px;
+	width: 30px;
+}
+#feather{
+	height: 50px;
+	width: 50px;
+}
+a#github, a#linkedin, a#twitter {
+	height: 50px;
+	width: 55.95px;
+	padding: 5px, 5px, 5px, 5px;
+
+}
+.landing {
+	height: 650px;
+	padding-top: 250px;
+}
+
+@navbar-default-bg{
+	opacity: .3;
+}

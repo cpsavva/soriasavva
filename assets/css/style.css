@@ -1,6 +1,25 @@
+/*color scheme
+Grey #C5C1C0 rgb(197,193,192)
+Black #0A1612 rgb(10,22,18)
+Denim #1A2930 rgb(26,41,48)
+Marigold #F7CE3E rgb(247,206,62)
+
+font
+font-family: 'Ranga', cursive;
+font-family: 'Raleway', sans-serif;
+*/
+
 body {
 	background-image: url('./images/brickwall.png');
 	padding-top: 70px;
+}
+
+nav{
+	background-color: rgba(10,22,18, 0.5);
+	font-family: 'Raleway', sans-serif;
+}
+.navlink{
+	color: #0A1612;
 }
 .empty{
 	padding-top: 70px;
@@ -22,8 +41,7 @@ a#github, a#linkedin, a#twitter {
 .landing {
 	height: 650px;
 	padding-top: 250px;
+	color: #1A2930;
 }
-
-@navbar-default-bg{
-	opacity: .3;
-}
+#intro{
+	animation: type 4s steps(60, end);}

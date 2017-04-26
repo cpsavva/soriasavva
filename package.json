@@ -2,7 +2,7 @@
   "name": "soriasavva",
   "version": "1.0.0",
   "description": "portfolio",
-  "main": "index.html",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/cpsavva/soriasavva/issues"
   },
-  "homepage": "https://github.com/cpsavva/soriasavva#readme"
+  "homepage": "https://github.com/cpsavva/soriasavva#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }

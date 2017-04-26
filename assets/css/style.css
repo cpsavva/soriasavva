@@ -23,8 +23,8 @@ nav{
 }
 
 .icons{
-	height: 30px;
-	width: 30px;
+	height: 50px;
+	width: 50px;
 }
 #feather{
 	height: 50px;
@@ -110,4 +110,12 @@ a#github, a#linkedin, a#twitter {
 }
 
 
+/*modal*/
+.modal{
+	background-color: rgba(10,22,18, 0.5);
+	
+}
+.modal-body{
+	background-color: #1A2930;
+}
 

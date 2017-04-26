@@ -34,12 +34,7 @@
 	      <ul class="nav navbar-nav">
 	        <li><a class='navlink' href="#about">About</a></li>
 	        <li><a class='navlink' href="#projects">Projects</a></li>
-	        <!-- <li><a class='navlink' href="#">Link</a></li>     -->
-	      </ul>
-	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#" id="github"><img class="icons" src="./assets/css/images/gitfavicon.png"></a></li>
-	       	<li><a href="#" id='linkedin'><img class="icons" src="./assets/css/images/linkedin.png"></a></li>
-	       	<li><a href="#" id='twitter'><img class="icons" src="./assets/css/images/twittericon.png"></a></li>
+	        <li><a class='navlink' href="#contact">Contact</a></li>    
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
@@ -84,106 +79,86 @@
 		<div class="row">
 		  <div class="col-sm-6 col-md-4">
 		    <div class="thumbnail">
-		      <img class='img-rounded' src="./assets/css/images/gotboredWhite.png" alt="Got Bored?">
-		      <div class="caption">
-		        <h3 class="projectCaption">Got Bored?</h3>
-		        <ul class="projectCaption">
-			        <li> An application created to help parents and caregivers find activities for their children in their area. Users input their location or location of interest and the app delivers results and map locations tailored for children and their families.</li>
-			        <li>Collaborators: Chiara DeLucia, Melissa Shah, Asha Tadimari</li>
-			        <li>HTML5, CSS3, JavaScript, Bootstrap, jQuery, Firebase, OAuth, GoogleAPI </li>
-					<li>Role: Developer in charge of APIs</li> 
-					<li><a href="https://fam-app-94e72.firebaseapp.com" target="_blank">Website</a></li>
-				</ul> 
-		      </div>
+		      <img class='img-rounded' src="./assets/css/images/gotboredWhite.png" alt="Got Bored?"data-toggle="modal" data-target="#famapp">
 		    </div>
 		  </div>
 		  <div class="col-sm-6 col-md-4">
 		    <div class="thumbnail">
-		      <img id="trail" class='img-rounded' src="./assets/css/images/trailblazer.png" alt="Trailblazer">
-		      <div class="caption">
-		        <h3 class="projectCaption">Trailblazer</h3>
-		        <ul class="projectCaption">
-			        <li> An application created for hikers exploring the US National Parks.</li>
-			        <li>HTML5, CSS3, JavaScript, Materialize, Node.js, Express.js, MySQL, Handlebars.js </li>
-			        <li>Collaborators: Emily Sun, Deepika Vikas, Jonathan Cruz, Smriti Shrestha</li>
-					<li>Role: Developer in charge of NPS API and MySQL database</li> 
-					<li><a href="https://trailblazer-rcb.herokuapp.com" target="_blank">Website</a></li>
-				</ul> 
-		      </div>
+		      <img id="trail" class='img-rounded' src="./assets/css/images/trailblazer.png" alt="Trailblazer" data-toggle="modal" data-target="#trailblazer">
 		    </div>
 		  </div>
 		  <div class="col-sm-6 col-md-4">
 		    <div class="thumbnail">
-		      <img class='img-rounded' src="./assets/css/images/radio2.jpg" alt="NPR Scrape">
-		      <div class="caption">
-		        <h3 class="projectCaption">NPR Scrapping</h3>
-		        <ul class="projectCaption">
-			        <li> This is a web-scrapping project that allows the user to save the lastest NPR News articles/summary links to a database and allow user to make comments on those saved articles.</li>
-			        <li>HTML5, CSS3, JavaScript, Materialize, Node.js, Express.js, MongoDB, Handlebars.js</li>
-					<li><a href=" https://npr-scrape.herokuapp.com" target="_blank">Website</a></li>
-				</ul> 
-		      </div>
+		      <img class='img-rounded' src="./assets/css/images/radio2.jpg" alt="NPR Scrape" data-toggle="modal" data-target="#nprscrape">
 		    </div>
 		  </div>
 		</div>
 	</div>
 
 	<!-- links/email -->
+	<div class='empty container' id='contact'>
+		<h1 class="text-center">Contact Me</h1>
+		<div class='contactIcons col-md-4 col-md-offset-5'>
+			<span class=''>
+				<a href="https://github.com/cpsavva" id="github" target='_blank'><img class="icons" src="./assets/css/images/gitfavicon.png"></a>
+				<a href="https://linkedin.com/in/csoriasavva" id='linkedin' target='_blank'><img class="icons" src="./assets/css/images/linkedin.png"></a>
+				<a href="https://twitter.com/soriasavva" id='twitter' target='_blank'><img class="icons" src="./assets/css/images/twittericon.png"></a>
+				<a href="mailto:csoriasavva@gmail.com"><img class='icons' src="./assets/css/images/email.png"></a>
+			</span>
+		</div>
 
-	 <!-- Project Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Got Bored?</h4>
-      </div>
-      <div class="modal-body">
-      		<ul class="projectCaption">
+	</div>
+
+	 <!-- Project Modals -->
+	<div class="modal fade" id="famapp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	    	<div class="modal-body projectCaption">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Got Bored?</h4>
+	      		<ul>
 			        <li> An application created to help parents and caregivers find activities for their children in their area. Users input their location or location of interest and the app delivers results and map locations tailored for children and their families.</li>
 			        <li>Collaborators: Chiara DeLucia, Melissa Shah, Asha Tadimari</li>
 			        <li>HTML5, CSS3, JavaScript, Bootstrap, jQuery, Firebase, OAuth, GoogleAPI </li>
 					<li>Role: Developer in charge of APIs</li> 
 					<li><a href="https://fam-app-94e72.firebaseapp.com" target="_blank">Website</a></li>
 				</ul> 
-        ...
-      </div>
-    </div>
-  </div>
-</div><!-- /.modal -->
-<div class="modal fade" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Modal title</h4>
-      </div>
-      <div class="modal-body">
-        <p>One fine body&hellip;</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal --><div class="modal fade" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Modal title</h4>
-      </div>
-      <div class="modal-body">
-        <p>One fine body&hellip;</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-	
+	      	</div>
+	    </div>
+	  </div>
+	</div><!-- /.modal -->
+	<div class="modal fade" id="trailblazer" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	    	<div class="modal-body projectCaption">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title">TrailBlazer</h4>
+
+		        <ul>
+			        <li> An application created for hikers exploring the US National Parks.</li>
+			        <li>HTML5, CSS3, JavaScript, Materialize, Node.js, Express.js, MySQL, Handlebars.js </li>
+			        <li>Collaborators: Emily Sun, Deepika Vikas, Jonathan Cruz, Smriti Shrestha</li>
+					<li>Role: Developer in charge of NPS API and MySQL database</li> 
+					<li><a href="https://trailblazer-rcb.herokuapp.com" target="_blank">Website</a></li>
+				</ul> 
+	      	</div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+	<div class="modal fade" id='nprscrape' tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	    	<div class="modal-body projectCaption">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title">NPR Scrapping</h4>
+		        <ul>
+			        <li> This is a web-scrapping project that allows the user to save the lastest NPR News articles/summary links to a database and allow user to make comments on those saved articles.</li>
+			        <li>HTML5, CSS3, JavaScript, Materialize, Node.js, Express.js, MongoDB, Handlebars.js</li>
+					<li><a href=" https://npr-scrape.herokuapp.com" target="_blank">Website</a></li>
+				</ul> 
+	     	</div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
 </body>
 </html>

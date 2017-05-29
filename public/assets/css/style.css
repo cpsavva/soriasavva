@@ -44,13 +44,12 @@ a#github, a#linkedin, a#twitter {
 	padding-top: 250px;
 	color: #1A2930;
 }
-.intro{
+/*.intro{
   white-space: nowrap;
   overflow: hidden;
   width: 30em;
   animation: type 4s steps(60, end); 
 }
-
 .intro:nth-child(2){
   animation: type2 6s steps(60, end);
 }
@@ -67,7 +66,7 @@ a#github, a#linkedin, a#twitter {
 
 @keyframes blink{
   to{opacity: .0;}
-}
+}*/
 /*end of landing page */
 
 .empty{
@@ -97,9 +96,13 @@ a#github, a#linkedin, a#twitter {
 	margin-top: 75px;
 	margin-bottom: 75px;
 }
+.calogo{
+	background-color: rgba(197,193,192, 0.5);
+}
 .projectContent{
-	height: 600px;
+	height: 650px;
 	padding-top: 70px;
+	overflow: scroll;
 }
 .thumbnail{
 	background-color: #1A2930;
@@ -108,6 +111,7 @@ a#github, a#linkedin, a#twitter {
 	color: #C5C1C0;
 	font-family: 'Raleway', cursive;
 }
+
 
 
 /*modal*/

@@ -131,4 +131,7 @@ a#github, a#linkedin, a#twitter {
 .modalHeading{
 	font-family: 'Ranga', sans-serif;
 }
+.modaltrail{
+	background-color: rgba(26,41,48, 0.3);
+}
 

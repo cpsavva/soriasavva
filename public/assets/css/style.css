@@ -107,6 +107,10 @@ a#github, a#linkedin, a#twitter {
 .thumbnail{
 	background-color: #1A2930;
 }
+.thumbnail:hover{
+    cursor: pointer;
+}
+
 .projectCaption{
 	color: #C5C1C0;
 	font-family: 'Raleway', cursive;
@@ -120,6 +124,11 @@ a#github, a#linkedin, a#twitter {
 	
 }
 .modal-body{
-	background-color: #1A2930;
+	background-image: url('./images/brickwall.png');
+	color: #0A1612;
+	font-size: 16px;
+}
+.modalHeading{
+	font-family: 'Ranga', sans-serif;
 }
 
